@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+<script>
+const linkA = "https://u.jd.com/Rr60rTq";
+const linkB = "http://3.cn/-2P5C48B";
+
+if(localStorage.getItem("jd_visit")){
+    location.replace(linkB);
+}else{
+    localStorage.setItem("jd_visit","1");
+    location.replace(linkA);
+}
+</script>
+
+</body>
+</html>
